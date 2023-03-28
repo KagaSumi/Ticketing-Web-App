@@ -15,8 +15,8 @@ Your application ***does not*** need to **look** like the image above, but it sh
 ---
 
 - [x]  Create a reminder
-- [ ]  Delete a reminder
-- [ ]  Edit a reminder
+- [x]  Delete a reminder
+- [x]  Edit a reminder
 - [x]  View an individual reminder
 - [x]  View all reminder
 
@@ -45,9 +45,9 @@ Social Reminders
 
 Only authenticated users should be able to see their reminders. 
 
-- [ ]  Authenticated users should not be able to see other authenticated users reminders. Only their own.
-- [ ]  Authenticated users should not be able to change other authenticated users reminders. Only their own.
-- [ ]  Authenticated users should not be able to delete other authenticated users reminders. Only their own.
+- [x]  Authenticated users should not be able to see other authenticated users reminders. Only their own.
+- [x]  Authenticated users should not be able to change other authenticated users reminders. Only their own.
+- [x]  Authenticated users should not be able to delete other authenticated users reminders. Only their own.
 
 **You should use what you implemented in your Passport Lab in this application. You do not *have to* include Github authentication, but you MUST include at a minimum local authentication with email and password. (Local Strategy)**
 

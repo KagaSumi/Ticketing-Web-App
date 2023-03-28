@@ -2,11 +2,16 @@ let database = require("../database");
 
 let remindersController = {
   list: (req, res) => {
-    console.log()
+    if (req.session.passport == undefined) {
+      res.redirect("/login")
+    }
     res.render("reminder/index", { reminders: req.user.reminders });
   },
 
   new: (req, res) => {
+    if (req.session.passport == undefined) {
+      res.redirect("/login")
+    }
     res.render("reminder/create");
   },
 
@@ -23,6 +28,7 @@ let remindersController = {
   },
 
   create: (req, res) => {
+    
     let reminder = {
       id: req.user.reminders.length + 1,
       title: req.body.title,
