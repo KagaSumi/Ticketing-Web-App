@@ -73,14 +73,11 @@ app.post("/reminder/delete/:id", reminderController.delete);
 
 
 
-app.get("/login", (req, res) => res.render("login"));
+app.get("/login", authController.login);
 
 app.post(
   "/login",
-  passport.authenticate("local", {
-    successRedirect: "/dashboard",
-    failureRedirect: "/auth/login",
-  })
+  authController.loginSubmit
 );
 
 app.get("/logout", (req, res) => {
