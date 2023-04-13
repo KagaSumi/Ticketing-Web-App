@@ -5,7 +5,12 @@ I worked on the following tasks:
 1. Update Task - This reminder is responisble for update any task with new parameters.
 2. Authentication - This verifies that users are logged in before being able to view their tasks or create new tasks.
 
-Markus A:
+Markus Alfonso:
 I worked on the following tasks:
 1. Delete Tasks - This task is responsible for removing a user's reminder from their reminder list.
 2. Reminder controller - Adjusted reminder controller to fit new database parameters
+
+# April 4th
+Markus Alfonso:
+I worked on the following tasks:
+1. Logout - Added capability of logging out.
