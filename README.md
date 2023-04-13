@@ -1,4 +1,8 @@
 # Term Project
+Written By:
+Quinten Leung A01055681
+Markus Alfonso A01333486
+
 
 We are now moving into the section of the course where we will be building a full sized web application as a group. **The purpose of the application you are building to is create reminders, and be able to share those reminders with other users of the application.** 
 
